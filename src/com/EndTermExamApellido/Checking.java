@@ -4,7 +4,7 @@ public class Checking extends AccountForABank {
 	
 	public Checking(int accountNumber){
 		super(accountNumber);
-	}
+}
 	
 	public int getAccountNumber(){
 		

@@ -3,32 +3,32 @@ package com.EndTermExamApellido;
 public class Savings extends AccountForABank {
 private double interestRate;
 	
-	public Savings(int accountNumber, double interest)
-{
+	public Savings(int accountNumber, double interest){
+		
 		super(accountNumber);
 		setInterestRate(interest);
-	}
+}
 	
-	public void setInterestRate(double interest)
-{
+	public void setInterestRate(double interest){
+		
 		interestRate = interest;
-	}
-	public double getInterestRate()
-{
+}
+	public double getInterestRate(){
+		
 		return interestRate;
-	}
+}
 	
-	public int getAccountNumber()
-{
+	public int getAccountNumber(){
+		
 		return accountNumber;
-	}
+}
 	
-	public double getBalance()
-{
+	public double getBalance(){
+		
 		return balance;
-	}
-	public String getAccountInfo()
-	{
+}
+	public String getAccountInfo(){
+		
 		return("Savings Account Information\nAccount Number: " + getAccountNumber() + "\nBalance: " + getBalance() + "\nInterest Rate: " + getInterestRate() + "%");
 	}
 }
